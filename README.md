@@ -8,8 +8,7 @@ This driver source has been modified as extensively as possible for stability.
 ```bash
 git clone https://github.com/wildyrando/Realtek-RTL8821CU.git
 cd Realtek-RTL8821CU
-make -j $(nproc)
-make install
+bash install.sh
 ```
 then reboot your device
 
